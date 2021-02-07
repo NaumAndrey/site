@@ -1,0 +1,233 @@
+/*-----------------------------------Обнуление------------------------------------------------------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  line-height: 1;
+  overflow-x: hidden;
+  max-width: 1920px;
+}
+
+
+*,*:before,*:after{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+/* .section-1 {
+
+
+}
+
+.section-main-menu {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #232323;
+    align-items:center;
+    
+}
+
+.element {
+    padding: 20px;
+    border: 1px solid #232323;
+    border-radius: 5px;
+    width: 100px;
+} */
+
+.main {
+  height: 180px;
+  position: relative;
+  display: flex;
+  width: 100%;
+  /* border: 1px solid #232323; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1920px;
+}
+
+
+.section-1 {
+  height: 90px;
+  /* border: 1px solid #232323;  */
+  /* background: rgb(255, 214, 100); */
+  width: 100%;
+  max-width: 1170px;
+  display: flex;
+  /* border-radius: 5px; */
+  /* justify-content: flex-end; */
+  /* max-width: 1170px; */
+  /* margin: 0 auto; */
+} 
+
+.section-main-menu {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+  /* max-width: 1170px;
+  max-width: 570px; */
+}
+
+.element-1 {
+  background: no-repeat center/80% url(img/vector.png);
+  height: 80px;
+  width: 150px;
+  /* border-radius: 5px; */
+  /* border: 1px solid #232323; */
+}
+
+.element-2 {
+  background: no-repeat left/5% url(img/point.png);
+  height: 60px;
+  border-radius: 5px;
+  width: 160px;
+  border: 1px solid #232323;
+}
+
+.element-3 {
+  height: 30px;
+  border-radius: 5px;
+  width: 100px;
+  border: 1px solid #232323;
+}
+
+.element-4 {
+  height: 30px;
+  border-radius: 5px;
+  width: 100px;
+  border: 1px solid #232323;
+}
+
+.section-2 {
+  height: 30px;
+  background: #F2F2F2;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.section-nav-menu {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.section-menu {
+  width: 100%;
+  max-width: 570px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-menu a{
+  display: flex;  
+  text-decoration: none;
+}
+
+
+.nav-element {
+  border: 1px solid #232323;
+  border-radius: 5px;
+  width: 100px;
+}
+
+
+.section-3 {
+  height: 50px;
+  background: #F7D14C;
+  width: 100%;
+  display: flex;
+}
+
+.section-nav-menu-2 {
+/*  width: 100%;
+  display: flex;
+  max-width: 1170px;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;*/
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.section-menu-2 {
+  /* height: 30px;
+  border: 1px solid #232323;
+  background: #25dd28;
+  width: 100%;
+  max-width: 1705px;
+  display: flex;
+  justify-content: flex-start; */
+  width: 100%;
+  max-width: 570px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-menu-2 a {
+  color: #232323;
+  display: flex;
+  text-decoration: none;
+}
